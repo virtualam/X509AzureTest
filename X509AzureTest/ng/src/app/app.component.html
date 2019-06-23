@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">X.509 certificate test</h5>
+    <div class="card-text">
+      Attempt #: {{numberOfAttempts}}
+    </div>
+
+    <div class="card-text">Total Attempts: <input maxlength="5" style="width:70px;" type="number" value="5" [(ngModel)]="totalAttempts" /></div>
+
+    <div class="card-text" style="padding: 10px 0px 0px 0px">
+      <button (click)="getValues()">Initialize X.509 cert</button>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
