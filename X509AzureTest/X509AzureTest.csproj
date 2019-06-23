@@ -180,9 +180,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="main.31614cbbe59719935ead.js" />
-    <Content Include="main.5f9009d115afeba5be90.js" />
-    <Content Include="main.e0370b69a57e300957f5.js" />
-    <Content Include="main.ecedd1dd38ab556e7de5.js" />
     <Content Include="polyfills.8bbb231b43165d65d357.js" />
     <Content Include="runtime.26209474bfa8dc87a77c.js" />
     <Content Include="Scripts\bootstrap.js" />
