@@ -13,9 +13,11 @@ namespace X509AzureTest.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
-        public IEnumerable<string> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+            string fileName = System.Web.Hosting.HostingEnvironment.MapPath("~/Certs/WildCatApp-fa0a0e18-f305-40b4-93ee-9ff30436a212.pfx");
+            X509Certificate2 cert = new X509Certificate2(fileName, "", X509KeyStorageFlags.PersistKeySet);
+            return $"success!";
         }
 
         // GET api/values/5
